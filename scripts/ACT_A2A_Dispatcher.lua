@@ -19,6 +19,7 @@
 --         or Moose.lua @ line 38473
 
 --Define Settings
+defaultOverhead = 0.5                       -- Balancing value for hostile flights vs friendly, 1 meaning equal
 defaultGrouping = 2                         -- Number of planes in a flight
 defaultFlightsAmount = 2                    -- Number of flights to be in the air by default
 defaultTimerLow = 100                       -- Low end of time required between spawning new flight
